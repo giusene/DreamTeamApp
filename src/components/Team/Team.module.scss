@@ -1,0 +1,40 @@
+.Item{
+    background-color: #222 !important;
+    .Header{
+        img {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            margin-right: 10px;
+            padding: 2px;
+            border-radius: 50%;
+        }
+        button {
+            background-color: #2f3c44;
+            color: #b2babd;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 14px;
+
+            outline: 0;
+            &::after{
+                color: #b2babd;
+            }
+        }
+    }
+
+    .Body{
+        padding: 0;
+        background-color: #222;
+
+        .playersList {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
